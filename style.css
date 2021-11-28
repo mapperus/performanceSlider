@@ -1,0 +1,170 @@
+body{
+    background-color: #181a1b;
+}
+
+.animationContainer{
+	width:200px;
+	height:200px;
+	position:absolute;
+	top:0; left:0;
+	animation:pos 60s infinite ease-in-out;
+	transform:rotate(360deg);
+    background-repeat: no-repeat;
+    background-size: contain;
+	transition:scale 5s linear;
+	z-index:-1000;
+}
+
+
+@keyframes pos{
+	0%{
+		top:200px;
+		left:10%;
+        background-image: url(img/angel.png);
+        opacity:0;
+	}
+
+    12.5%{
+		top:200px;
+		left:10%;
+        background-image: url(img/angel.png);
+        opacity:1;
+	}
+    
+    24.9%{
+		top:200px;
+		left:10%;
+        background-image: url(img/angel.png);
+        opacity:0;
+	}
+    
+    25%{
+		top:200px;
+		left:10%;
+        background-image: none;
+        opacity:0;
+	}
+
+
+
+
+
+
+
+
+
+    25%{
+		top:200px;
+		left:70%;
+        background-image: url(img/bird.png);
+        opacity:0;
+	}
+
+    37.5%{
+		top:200px;
+		left:70%;
+        background-image: url(img/bird.png);
+        opacity:1;
+	}
+    
+    49.9%{
+		top:200px;
+		left:70%;
+        background-image: url(img/bird.png);
+        opacity:0;
+	}
+
+    50%{
+		top:200px;
+		left:70%;
+        background-image: none;
+        opacity:0;
+	}
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    50%{
+		top:400px;
+		left:10%;
+        background-image: url(img/lama.png);
+        opacity:0;
+	}
+
+    62.5%{
+		top:400px;
+		left:10%;
+        background-image: url(img/lama.png);
+        opacity:1;
+	}
+    
+    74.9%{
+		top:400px;
+		left:10%;
+        background-image: url(img/lama.png);
+        opacity:0;
+	}
+
+    75%{
+		top:400px;
+		left:10%;
+        background-image: none;
+        opacity:0;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    75%{
+		top:400px;
+		left:70%;
+        background-image: url(img/cat.png);
+        opacity:0;
+	}
+
+    87.5%{
+		top:400px;
+		left:70%;
+        background-image: url(img/cat.png);
+        opacity:1;
+	}
+    
+    99.9%{
+		top:400px;
+		left:70%;
+        background-image: url(img/cat.png);
+        opacity:0;
+	}
+
+    100%{
+		top:400px;
+		left:70%;
+        background-image: none;
+        opacity:0;
+	}
+
+}
+
+p {
+    margin-top: 70px;
+    color: whitesmoke;
+    text-align: center;
+}
